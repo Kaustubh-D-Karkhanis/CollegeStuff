@@ -1,0 +1,80 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(pics/bio.png);
+    /* background-image: linear-gradient(#695b21,#423502, #000000); */
+
+}
+header a{
+
+    text-decoration: none;
+    color: rgb(8, 6, 6);
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    color: rgb(248, 247, 244);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+    border-bottom: 0.6px solid rgb(224, 190, 125);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.navbuttons{
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    background-color: rgba(228, 198, 99, 0.816);
+    padding: 11px 25px;
+    margin-left: 25px;
+    border-radius: 1.5px;
+    box-shadow: 1px 1px 3px black;
+    
+}
+
+main{
+    text-align: center;
+    color: rgb(248, 247, 242);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main p{
+    text-align: left;
+    font-size: 24px;
+}
+.herobox1{
+    width: 50%;
+    flex: 2.5;
+    padding-right: 100px;
+    line-height: 42px;
+}
+.herobox2{
+    width:50%;
+    flex: 1;
+    box-shadow: 2.5px 2.5px 4px black;
+}
+main a{
+    float: left;
+    font-size: 18px;
+    color: rgb(248, 23, 23);
+}
+.name h1{
+    font-size: 40px;
+    border-style: double;
+    border-radius: 2px;
+    padding: 5px 5px;
+    background-color: rgba(228, 198, 99, 0.721);
+    color: rgb(20, 17, 46);
+}

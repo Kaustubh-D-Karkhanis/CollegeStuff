@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: url(pics/bio.png);
+
+
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    color: rgb(228, 198, 99);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    border-bottom: 0.6px solid rgb(224, 190, 125);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+header a{
+    text-decoration: none;
+    color: rgb(228, 198, 99);
+}
+main {
+    color: white;
+}
